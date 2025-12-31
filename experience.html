@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website - Experience</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Personal Website</h1>
+            <p>Let's hear more about me.</p>
+        </header>
+        
+       	 <nav>
+       <a href="./index.html" class="nav-btn">Home</a>
+       <a href="./biodata.html" class="nav-btn">Biodata</a>
+       <a href="./hobbies.html" class="nav-btn">Hobbies</a>
+       <a href="./education.html" class="nav-btn">Education</a>
+       <a href="./experience.html" class="nav-btn">Experience</a>
+       <a href="./social.html" class="nav-btn">Social Media</a>
+         </nav>
+        
+        <div class="page">
+            <h2>My Experiences</h2> 
+            <div class="experience-item">
+                <h3><i class="fas fa-basketball-ball"></i> Handball Player at School</h3>
+                <div class="experience-content">
+                    <div class="experience-text">
+                        <p><strong>Duration:</strong> 2018 - 2019</p>
+                        <p><strong>Position:</strong> Team Captain</p>
+                        <p><strong>Achievements:</strong></p>
+                        <ul>
+                            <li>Represented school at district level competitions</li>
+                            <li>Won 4th place in the District Championship</li>
+                            <li>Organized handball training for juniors</li>
+                            <li>Learned teamwork, discipline, and leadership skills</li>
+                        </ul>
+                    </div>
+                    <div class="experience-media">
+                        <img src="./ex1.jpeg" alt="Handball Team Photo" class="experience-img">
+                        <p class="image-caption">With my handball team after last training to competition tomorrow</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="experience-item">
+                <h3><i class="fas fa-book"></i> School Librarian</h3>
+                <div class="experience-content">
+                    <div class="experience-text">
+                        <p><strong>Duration:</strong> 2019 - 2022</p>
+                        <p><strong>Responsibilities:</strong></p>
+                        <ul>
+                            <li>Managed book borrowing and returning system</li>
+                            <li>Organized books</li>
+                            <li>Assisted students in finding reference materials</li>
+                            <li>Maintaining the cleanliness and well-being of the library</li>
+                            <li>Helped organize reading programs and book fairs at schools</li>
+                        </ul>
+                        <p><strong>Skills Gained:</strong>  Carefully managing materials, taking care of reading materials and the library and many more</p>
+                    </div>
+                    <div class="experience-media">
+                        <img src="./ex2.jpeg" alt="Library Work" class="experience-img">
+                        <p class="image-caption">My friend and I in our librarian clothes</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="experience-item">
+                <h3><i class="fas fa-briefcase"></i> Internship at PPD Kulim Kedah</h3>
+                <div class="experience-content">
+                    <div class="experience-text">
+                        <p><strong>Duration:</strong> July 2025 - September 2025 (2 months)</p>
+                        <p><strong>Department:</strong> School Management</p>
+                        <p><strong>Responsibilities:</strong></p>
+                        <ul>
+                            <li>Assisted in data entry and management of student records</li>
+                            <li>Assist in finding information for Kindergarten, Tuition Center and Mind Development Center</li>
+                            <li>Enter data into Kulim PPD dashboard</li>
+                            <li>Participate in managing kindergarten opening files and more</li>
+                            <li>Learned the educational administration process</li>
+                        </ul>
+                        <p><strong>Key Learning:</strong> Real-world application of information management skills</p>
+                    </div>
+                    <div class="experience-media">
+                        <div class="experience-video-container">
+                            <video controls class="experience-video">
+                                <source src="./ex3.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                            <p class="video-caption">D-Day at PPD</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="page-navigation">
+                <button class="nav-page-btn" id="prevBtn">← Back</button>
+                <button class="nav-page-btn" id="nextBtn">Next →</button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 My Personal Website. Created with love and stress.</p>
+            <p>Simple Website from Cucu Cicit TokYam</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('prevBtn').onclick = function() {
+            window.location.href = "education.html";
+        };
+        
+        document.getElementById('nextBtn').onclick = function() {
+            window.location.href = "social.html";
+        };
+    </script>
+</body>
+</html>

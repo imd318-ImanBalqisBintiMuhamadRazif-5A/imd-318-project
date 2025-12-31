@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website - Biodata</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Personal Website</h1>
+            <p>Let's hear more about me.</p>
+        </header>
+        
+        <nav>
+   	 <a href="./index.html" class="nav-btn">Home</a>
+    <a href="./biodata.html" class="nav-btn">Biodata</a>
+    <a href="./hobbies.html" class="nav-btn">Hobbies</a>
+    <a href="./education.html" class="nav-btn">Education</a>
+    <a href="./experience.html" class="nav-btn">Experience</a>
+    <a href="./social.html" class="nav-btn">Social Media</a>
+	</nav>
+        
+        <div class="page">
+            <h2>My Biodata</h2>
+            <div class="content">
+                <div class="text-content">
+                    <p>Here is my personal information:</p>
+                    <ul>
+                        <li><strong>Full Name:</strong> Iman Balqis binti Muhamad Razif</li>
+                        <li><strong>Date of Birth:</strong> 6 November 2005</li>
+                        <li><strong>Age:</strong> 20 years old</li>
+                        <li><strong>Gender:</strong> Female</li>
+                        <li><strong>Nationality:</strong> Malaysian</li>
+                        <li><strong>Address:</strong> Kedah, Malaysia</li>
+                        <li><strong>Email:</strong> imanbalqismrz@gmail.com</li>
+                        <li><strong>Phone:</strong> +60 10-323 7831</li>
+                    </ul>
+                    <h3>Personal Details</h3>
+                    <p>I am the fifth child of six siblings and now I am pursuing my diploma studies at UiTM kedah by continuing the information management. This course is indeed challenging but very interesting when studied one by one from beginning to end.</p>
+                    <p>My goal in this subject is to become proficient in web development.</p>
+                </div>
+                <div class="media-content">
+                    <div class="profile-circle">
+                        <img src="./balqis2.jpeg" alt="Profile Picture">
+                    </div>
+                    <p><strong>Iman Balqis</strong></p>
+                    
+                    <video controls width="80%" class="local-video">
+                        <source src="./bio1.mp4" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                    <p>A short video about my daily activities!</p>
+                </div>
+            </div>
+            
+            <div class="page-navigation">
+                <button class="nav-page-btn" id="prevBtn">← Back</button>
+                <button class="nav-page-btn" id="nextBtn">Next →</button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 My Personal Website. Created with love and stress.</p>
+            <p>Simple Website from Cucu Cicit TokYam</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('prevBtn').onclick = function() {
+            window.location.href = "index.html";
+        };
+        
+        document.getElementById('nextBtn').onclick = function() {
+            window.location.href = "hobbies.html";
+        };
+    </script>
+</body>
+</html>

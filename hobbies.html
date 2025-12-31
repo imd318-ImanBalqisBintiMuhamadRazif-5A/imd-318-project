@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website - Hobbies</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Personal Website</h1>
+            <p>Let's hear more about me.</p>
+        </header>
+        
+        <nav>
+            <a href="./index.html" class="nav-btn">Home</a>
+            <a href="./biodata.html" class="nav-btn">Biodata</a>
+            <a href="./hobbies.html" class="nav-btn active">Hobbies</a>
+            <a href="./education.html" class="nav-btn">Education</a>
+            <a href="./experience.html" class="nav-btn">Experience</a>
+            <a href="./social.html" class="nav-btn">Social Media</a>
+        </nav>
+        
+        <div class="page">
+            <h2>My Hobbies</h2>
+            <div class="content">
+                <div class="text-content">
+                    <p>I have several hobbies that I enjoy during my free time:</p>
+                    
+                    <div class="hobby-section">
+                        <h3>1. Reading Books</h3>
+                        <p>I love reading fiction books, especially the genres that offer high excitement and suspense which is action, supernatural and thriller novels. Reading not only helps me relax but also improves my imagination to different worlds.</p>
+                        <p>My favorite series book is "Laksamana Sunan" by Ramlee Awang Murshid.</p>
+                    </div>
+                    
+                    <div class="hobby-section">
+                        <h3>2. Playing Video Games</h3>
+                        <p>Playing video games is the best way for me to release my tension. I enjoy the massive variety of experiences available on platforms like Roblox, which is allow me to explore and play different kinds of games.</p>
+                        <p>My favorite is Roblox because it offers a fantastic way to socialize and explore countless worlds together.</p>
+                    </div>
+                    
+                    <div class="hobby-section">
+                        <h3>3. Watching Movies</h3>
+                        <p>I enjoy watching movies as a perfect way to spend my free time. I love movies, especially horror, psychological thriller and animated films. I usually watch movies with my sister because we share similar taste in movie genres.</p>
+                        <p>My favorite movies are "Malignant" and the best animated series is "Naruto".</p>
+                    </div>
+                </div>
+                
+                <div class="media-content">
+                    <div class="image-container">
+                        <img src="./novel.jpeg" alt="Laksamana Sunan Book" class="book-image">
+                        <p class="image-caption">The best book ever! - Laksamana Sunan</p>
+                    </div>
+                    
+                    <div class="image-container">
+                        <img src="./roblox.jpeg" alt="Playing Roblox" class="game-image">
+                        <p class="image-caption">Playing games with Yayan is the best!</p>
+                    </div>
+                    
+		<div class="video-container">
+    		     <iframe 
+        		src="https://www.youtube.com/embed/Gczt0fhawDs" 
+        		title="Malignant Official Trailer" 
+        		frameborder="0" 
+        		allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        		allowfullscreen>
+    			</iframe>
+   			<p class="image-caption">Malignant Movie Trailer - One of my favorite horror/thriller movies!</p>
+			</div>	
+            </div>
+            
+            <div class="page-navigation">
+                <button class="nav-page-btn" id="prevBtn">← Back</button>
+                <button class="nav-page-btn" id="nextBtn">Next →</button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 My Personal Website. Created with love and stress.</p>
+            <p>Simple Website from Cucu Cicit TokYam</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('prevBtn').onclick = function() {
+            window.location.href = "biodata.html";
+        };
+        
+        document.getElementById('nextBtn').onclick = function() {
+            window.location.href = "education.html";
+        };
+    </script>
+</body>
+</html>

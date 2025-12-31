@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website - Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>My Personal Website</h1>
+            <p>Let's hear more about me.</p>
+        </header>
+        
+        <nav>
+    <a href="./index.html" class="nav-btn">Home</a>
+    <a href="./biodata.html" class="nav-btn">Biodata</a>
+    <a href="./hobbies.html" class="nav-btn">Hobbies</a>
+    <a href="./education.html" class="nav-btn">Education</a>
+    <a href="./experience.html" class="nav-btn">Experience</a> 
+    <a href="./social.html" class="nav-btn">Social Media</a>
+</nav>
+        
+        <div class="page">
+            <h2>My Education Journey</h2>
+            <div class="content">
+                <div class="text-content">
+                    <p>Here is my educational background and journey:</p>
+                    
+                    <div class="education-timeline">
+                        <div class="education-item">
+                            <h3>Primary School (2011 - 2017)</h3>
+                            <ul>
+                                <li><strong>School:</strong> Sekolah Rendah Islam Al-Ummah</li>
+                                <li><strong>Location:</strong> Chemor, Perak</li>
+                                <li><strong>Achievements:</strong> 8A in UPKK, Assistant chairman of the sports club</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="education-item">
+                            <h3>Secondary School (2018 - 2022)</h3>
+                            <ul>
+                                <li><strong>School:</strong> Sekolah Menengah Islam Al-Masriyah</li>
+                                <li><strong>Location:</strong> Bukit Mertajam, Pulau Pinang</li>
+                                <li><strong>Stream:</strong> Literature</li>
+                                <li><strong>Achievements:</strong> Librarian, Handball player</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="education-item">
+                            <h3>Diploma in Information Management (2023 - 2025)</h3>
+                            <ul>
+                                <li><strong>Institution:</strong> University Technology Mara</li>
+                                <li><strong>Location:</strong> Merbok, Kedah</li>
+                                <li><strong>CGPA:</strong> 3.16</li>
+                                <li><strong>Courses:</strong> Web Content, Multimedia, Archive Administration and more</li>
+                            </ul>
+                        </div>
+                    </div>
+                    
+                    <div style="margin-top: 25px; padding: 15px; background-color: #f0f8ff; border-radius: 5px;">
+                        <h3>Currently Studying</h3>
+                        <p>I am currently pursuing a diploma in Information Management, focusing on web development and information management.</p>
+                    </div>
+                </div>
+
+                <div class="media-content">
+                    <div class="image-container">
+                        <img src="./edu1.jpg" alt="SPM Certificate" class="edu-image spm-image">
+                        <p class="image-caption">SPM Certificate - A milestone achievement!</p>
+                    </div>
+                    
+                    <div class="image-container">
+                        <img src="./edu2.jpg" alt="Secondary School Graduation" class="edu-image graduate-image">
+                        <p class="image-caption">Graduating from secondary school - Class of 2022</p>
+                    </div>
+                    
+                    <div style="margin-top: 20px; padding: 15px; background-color: #f8f9fa; border-radius: 8px;">
+                        <h4>📚 Academic Goals</h4>
+                        <p>Aiming to graduate with honors and pursue a career in IT and information management.
+.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="page-navigation">
+                <button class="nav-page-btn" id="prevBtn">← Back</button>
+                <button class="nav-page-btn" id="nextBtn">Next →</button>
+            </div>
+        </div>
+        
+        <footer>
+            <p>&copy; 2025 My Personal Website. Created with love and stress.</p>
+            <p>Simple Website from Cucu Cicit TokYam</p>
+        </footer>
+    </div>
+
+    <script>
+        document.getElementById('prevBtn').onclick = function() {
+            window.location.href = "hobbies.html";
+        };
+        
+        document.getElementById('nextBtn').onclick = function() {
+            window.location.href = "experience.html";
+        };
+    </script>
+</body>
+</html>
